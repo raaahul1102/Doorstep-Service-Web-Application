@@ -1,0 +1,22 @@
+/* LocationFilterComponent.css */
+
+.location-filter-container {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    width: 200px;
+    margin-left: 10px;
+    border-radius: 8px;
+}
+
+.location-checkboxes {
+    display: flex;
+    flex-direction: column;
+}
+
+.location-checkbox {
+    margin-bottom: 5px;
+}
+
+/* Customize styles as needed */

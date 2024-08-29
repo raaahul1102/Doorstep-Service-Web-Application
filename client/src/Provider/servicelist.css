@@ -1,0 +1,47 @@
+.service-item {
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 20px; /* Added margin from the top */
+  }
+  
+  .service-item .service-details {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added box shadow */
+  }
+  
+  .service-image {
+    margin-right: 20px;
+  }
+  
+  .service-image img {
+    width: 200px; /* Increased image size */
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .service-details h3 {
+    font-size: 28px; /* Increased font size */
+    margin-bottom: 15px; /* Increased margin bottom */
+  }
+  
+  .service-details p {
+    margin-bottom: 10px; /* Increased margin bottom */
+  }
+  
+  .service-details button {
+    padding: 10px 20px; /* Increased button padding */
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .service-details button:hover {
+    background-color: #0056b3;
+  }
+  

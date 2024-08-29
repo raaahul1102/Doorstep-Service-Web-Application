@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    margin-top: 20px;
+}
+
+.container-left {
+    width: 20%;
+}
+
+.container-right {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+/* For big screens */
+@media screen and (min-width: 768px) {
+    .container-right .provider-card {
+        width: calc(25% - 20px); /* Adjust margin */
+        margin-bottom: 20px;
+    }
+}
+
+/* For small screens */
+@media screen and (max-width: 767px) {
+    .container-right .provider-card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}

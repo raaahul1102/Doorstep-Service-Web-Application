@@ -1,0 +1,21 @@
+/* ServiceCard.css */
+
+.Service-card{
+   background-color: bisque;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 20px;
+    box-shadow: 4px 6px 8px solid brown;
+    
+  }
+  
+  .Service-card h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .customer-details p,
+  .order-details p {
+    margin-bottom: 5px;
+  }
+  

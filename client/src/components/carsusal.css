@@ -1,0 +1,45 @@
+/* Crausal.css */
+.crausal {
+    position: relative;
+    width: 100%;
+    margin-top: 50px;
+    overflow: hidden;
+  }
+  
+  .image {
+    width: 100%;
+    height:400px;
+    display: none;
+  }
+  
+  .active {
+    display: block;
+  }
+  
+  .btn {
+    position: absolute;
+    bottom: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  
+  .btn.prev {
+    left: 20px;
+  }
+  
+  .btn.next {
+    right: 20px;
+  }
+  

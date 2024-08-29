@@ -1,0 +1,29 @@
+.view-card {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    
+}
+.service-card{
+    height: 400px;
+}
+.add-button{
+    background-color: aliceblue;
+    color: black;
+    border: 1px solid rgb(231, 143, 11);
+    height: 40px;
+    border-radius: 4px;
+    transition: transform 0.3s ease;
+}
+.add-button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    border:1px solid orange;
+}
+.view-button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: white;
+    color: black;
+    border:1px solid orange;
+}
